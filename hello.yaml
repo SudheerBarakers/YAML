@@ -1,0 +1,18 @@
+"apple": "I am red apple"
+1: This is the first YAML file"
+
+#lists
+  - apple
+  - mange
+  - banana
+  - Apple
+---
+cities: 
+  - new delhi
+  - Mumbai
+  - Karnataka
+---
+cities: [Karntaka, Mumbai]
+---
+{mango: "yellow fruit", apple: "red"}
+... 

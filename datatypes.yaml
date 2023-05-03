@@ -1,0 +1,18 @@
+#String Variables
+
+name: Sudheer
+fruit: "Apple"
+job: 'Engineer'
+
+bio: |
+this is singlr line
+Its true
+
+# write a single line in a multiple line
+message: >
+this will
+be 
+a single line
+
+#same as
+message: this will be a single line

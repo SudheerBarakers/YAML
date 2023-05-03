@@ -1,0 +1,69 @@
+student: !!seq
+  - marks
+  - name
+  - roll no
+
+  #sparse seq: some of the keys of the seq will be empty
+
+  sparse seq: 
+    - Hi
+    - Hello
+    -
+    - Null
+
+    #Nested seq
+
+    -
+     - mango
+     - apple
+     - orange
+    -
+     - Marks
+     - name
+     - Score
+  ---
+  Fruits: 
+    : Mango
+    : Apple
+    : Orange
+  Student: 
+    : MArks
+    : Name
+    : Score
+
+    # Maps: Key: Value pairs are called maps
+    # !!map is used
+
+    #Nested Maps
+
+    name: Sudheer
+    Role:
+      age: 34
+      job: Engineer
+
+
+#Pairs: Key may be have duplicate values
+
+pair example: !!pairs
+  - job: students
+  - job: teacher
+
+  # This will be array of hash table
+
+
+#Unique Values: !!set will allow you to use unique values
+
+names: !!set
+  ? Sudheer
+  ? Rahul
+  ? India
+
+#Disctionary  !!omap
+
+people: !!omap
+  - Sudheer:
+     name: Sudheer Baraker
+     age: 35
+  - Rahul:
+     name: Rahul Kumar
+     age: 50
